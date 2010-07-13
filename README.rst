@@ -77,7 +77,7 @@ of timing every single line of code would be overwhelming. However, LineProfiler
 does need to be explicitly told what functions to profile. The easiest way to
 get started is to use the kernprof.py script.
 
-If you use "kernprof.py [-l/--line-by-line] script_to_profile.py", an instance
+If you use ``kernprof.py -l script_to_profile.py``, an instance
 of LineProfiler will be created and inserted into the __builtins__ namespace
 with the name "profile". It has been written to be used as a decorator, so in
 your script, you can decorate any function you want to profile with @profile. ::
