@@ -7,7 +7,7 @@ standard library's cProfile or profile modules, depending on what is available.
 
 They are available under a `BSD license`_.
 
-.. _BSD license: http://packages.python.org/line_profiler/LICENSE.txt
+.. _BSD license: http://github.com/certik/line_profiler/raw/master/LICENSE.txt
 
 .. contents::
 
@@ -23,9 +23,9 @@ The current release of the kernprof.py script may be downloaded separately here:
 
     http://packages.python.org/line_profiler/kernprof.py
 
-To check out the development sources, you can use Mercurial_::
+To check out the development sources, you can use Git_::
 
-    $ hg clone http://www.enthought.com/~rkern/cgi-bin/hgwebdir.cgi/line_profiler
+    $ git clone git://github.com/certik/line_profiler.git
 
 You may also download source tarballs of any snapshot from that URL.
 
@@ -44,7 +44,7 @@ In order to build and install line_profiler, you will simply use the standard
 
     $ python setup.py install
 
-.. _Mercurial: http://www.selenic.com/mercurial/wiki/
+.. _Git: http://git-scm.com/
 .. _Cython: http://www.cython.org
 .. _build and install: http://docs.python.org/install/index.html
 
