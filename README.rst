@@ -52,7 +52,7 @@ In order to build and install line_profiler, you will simply use the standard
 line_profiler
 =============
 
-The current profiling tools supported in Python 2.5 and later only profile time
+The current profiling tools supported in Python 2.5 and later only time
 function calls. This is a good first step for locating hotspots in one's program
 and is frequently all one needs to do to optimize the program. However,
 sometimes the cause of the hotspot is actually a single line in the function,
